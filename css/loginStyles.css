@@ -1,0 +1,897 @@
+@charset "UTF-8";
+
+html {
+  font-size: 16px;
+}
+
+body
+{
+	
+	/*max-width: 90rem;*/
+   /* height: 50.625rem;*/
+	
+}
+.containerBackground
+{
+	position: absolute;
+    width: 90rem;
+    height: 50.625rem;
+    left: 0px;
+    top: 0px;
+    
+    background-image: url("../images/airontDesktop.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 90rem 50.625rem;
+}
+
+.h1
+{
+	position: absolute;
+	left: 37.438rem;
+	top: 4.5rem;
+	
+	
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 2rem;
+    /* identical to box height, or 89% */  
+    color: #2791C2;
+}
+
+.extraH1
+{
+	font-family: 'Open Sans';
+	font-style: italic;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2rem;
+	
+}
+.containerLogin
+{
+	position: absolute;
+	width: 27.813rem;
+	height: 35.625rem;
+	left: 31.125rem;
+	top: 10rem;
+	background: rgba(49, 49, 49, 0.95);
+	box-shadow: 0rem 0.375rem 0.375rem rgba(11, 11, 11, 0.8);
+	border-radius: 0.625rem;
+}
+
+.h2
+{
+	
+	position: absolute;
+	
+	top: 2rem;
+	left: 1.486rem;
+	
+    
+    height: 2.922rem;
+	width: 24.889rem;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.313rem;
+    /* or 131% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.extraH2
+{
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 1.313rem;
+}
+.lp
+{
+	
+	position:absolute;
+	
+height: 2.324rem;
+width: 22.194rem;
+right: 2.762rem;
+/*left: 2.856rem;*/	
+top:  6.166rem;
+border-radius: 0.313rem;
+border-style: none;
+margin-left:0rem;	
+	margin-top:0rem;
+}
+.lp2
+{
+	position:absolute;
+	
+	
+height: 2.324rem;
+width: 22.194rem;
+right: 2.762rem;
+/*left: 2.856rem;*/	
+top: 	9.154rem;
+	border-radius: 0.313rem;
+	border-style: none;
+}
+
+.eye
+{
+	position: absolute;
+	top:9.938rem;
+	right:3.938rem;
+	height:0.75rem;
+    width:1.125rem;
+	
+}
+
+.container
+
+{
+	position: absolute;
+	height: 25px;
+   
+    left:5.313rem;
+	top: 11.625rem;
+	border-radius: nullpx;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.625rem;
+	line-height: 2rem;
+/* or 320% */
+	color: #BCBCBC;  
+    padding-top:0.146rem; 
+}
+
+.checkbox1 
+
+{
+	position: absolute;
+	left: 3.75rem;
+	top: 12.063rem;
+	width: 1.125rem;
+	height: 1.125rem;
+	
+}
+ .forgot 
+  
+  {
+    position: absolute;
+    height: 2rem;
+    width: 5.188rem;
+    left: 18.688rem;
+    top: 11.625rem;
+    border-radius: nullpx;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 2rem;
+    /* identical to box height, or 320% */
+    
+    text-align: right;
+    padding-top:0.146rem;
+    color: #29B9FC;
+
+  }
+
+.login
+{
+position:absolute;
+height: 2.938rem;
+width: 22.125rem;
+left: 2.875rem;
+top: 13.938rem;
+border-radius: 1.938rem;
+padding: 0.5rem 1.125rem 0.5rem 1.125rem;
+background: #2791C2;
+	
+border-style: none;
+	
+}
+
+.logintext
+{
+	position:absolute;
+	height: 1.25rem;
+	width: 2.813rem;
+	left: 12.531rem;
+	top: 14.781rem;
+	padding-top:0rem;
+	margin-top:0rem;
+	border-radius: nullpx;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 0.938rem;
+line-height: 1.25rem;
+/* White */
+color: #FFFFFF;
+}
+
+.register
+{
+    height: 2rem;
+	width: 9.5rem;
+    position: absolute;
+    left: 9.125rem;
+    right: 0rem;
+    top:17.5rem;
+    bottom:0px;
+    padding-top:0rem;
+	margin-top:0rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 2rem;
+    /* identical to box height, or 320% */
+    color: #FFFFFF;
+}
+.register2
+{
+    color: #29B9FC;
+}
+
+
+.hr1
+{
+
+    position: absolute;
+    width: 8.883rem;
+    height: 0rem;
+    left: 2.811rem;
+    top: 20.659rem;
+	margin-top:0px;
+	margin-bottom: 0px;
+    background-color: #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+
+}
+
+.or
+
+
+{
+
+    position: absolute;
+    height: 2rem;
+width: 0.875rem;
+left: 13.451rem;
+top: 19.5rem;
+	margin-top:0px;
+border-radius: nullpx;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.813rem;
+    line-height: 2rem;
+    /* identical to box height, or 246% */
+    
+    
+    color: #FFFFFF;
+
+}
+
+.hr2
+
+{
+
+ position: absolute;
+    width: 8.883rem;
+    height: 0px;
+    left: 16.146rem;
+    top: 20.659rem;
+	margin-top:0px;
+	margin-bottom: 0px;
+background-color: #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+
+}
+
+
+.faceLogin
+{
+box-sizing: border-box;
+height: 2.813rem;
+width: 22.375rem;
+border-radius: 2.188rem;
+    position: absolute;
+    left: 2.688rem;
+    top: 23.188rem;
+    margin-top:0rem;
+    border: 0.063rem solid #FFFFFF;
+    background: rgba(49, 49, 49, 0.95);
+    color: #FFFFFF;
+}
+
+.facelogo
+{
+
+	position: absolute;
+	height: 1.813rem;
+	width: 1.75rem;
+	top:23.688rem;
+		
+	margin-top:0px;
+	left:7rem;
+	
+}
+.facetext
+{
+	position:absolute;
+	height: 2rem;
+width: 10rem;
+left: 9.813rem;
+top: 23.625rem;
+	margin-top:0px;
+border-radius: nullpx;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 0.875rem;
+line-height: 2rem;
+/* identical to box height, or 229% */
+color: #FFFFFF;
+	
+}
+
+
+
+.twitterLogin
+{
+
+box-sizing: border-box;
+height: 2.813rem;
+width: 22.375rem;
+border-radius: 2.188rem;
+    position: absolute;
+    left: 2.688rem;
+    top: 26.625rem;
+    margin-top:0rem;
+    border: 0.063rem solid #FFFFFF;
+    background: rgba(49, 49, 49, 0.95);
+    color: #FFFFFF;
+
+}
+.twitterLogo
+{
+	
+	position: absolute;
+	height: 1.813rem;
+	width: 1.75rem;
+	top:27.128rem;
+		
+	margin-top:0px;
+	left:7rem;
+	
+	
+}
+.twitterText
+{
+	position:absolute;
+	height: 2rem;
+width: 10rem;
+left: 9.813rem;
+top: 27.063rem;
+	margin-top:0px;
+border-radius: nullpx;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 0.875rem;
+line-height: 2rem;
+/* identical to box height, or 229% */
+color: #FFFFFF;
+	
+}
+.googleLogin
+{
+	box-sizing: border-box;
+height: 2.813rem;
+width: 22.375rem;
+border-radius: 2.188rem;
+    position: absolute;
+    left: 2.688rem;
+    top: 30.125rem;
+    margin-top:0rem;
+    border: 0.063rem solid #FFFFFF;
+    background: rgba(49, 49, 49, 0.95);
+    color: #FFFFFF;
+}
+
+.googleLogo
+{
+	position: absolute;
+	height: 1.813rem;
+	width: 1.75rem;
+	top:30.625rem;
+		
+	margin-top:0px;
+	left:7rem;
+	
+}
+.googleText
+{
+	position:absolute;
+	height: 2rem;
+width: 10rem;
+left: 9.813rem;
+top: 30.563rem;
+	margin-top:0px;
+border-radius: nullpx;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 0.875rem;
+line-height: 2rem;
+/* identical to box height, or 229% */
+color: #FFFFFF;
+	
+}
+@media (min-width:40rem)and (max-width: 52.125rem) /*640*1194px*/
+{
+
+
+.containerBackground
+{
+	position: absolute;
+ 
+    height: 1194px;
+    left: 0px;
+    top: 0px;
+    
+    background-image: url("../images/airontDesktop2.png");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 834px 1194px;
+}
+	.h1
+{
+	position: absolute;
+	left: 18.5rem;
+	right: 37.5rem;
+	top: 16.75rem;
+	bottom: 706rem;
+	
+}
+	
+	.containerLogin
+{
+	position: absolute;
+	width: 27.813rem;
+	height: 35.625rem;
+	left: 12.188rem;
+	top: 22.25rem;
+	}
+	
+}
+@media (min-width: 23.438rem) and (max-width: 39.938rem) /*639px*/
+
+{
+.containerBackground
+{
+	position: absolute;
+ 
+    height: 1264px;
+    left: 0px;
+    top: 0px;
+    
+    background-image: url("../images/airontDesktop3.png");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 640px 1264px;
+}
+	
+	.h1
+{
+	position: absolute;
+	left: 11.188rem;
+	
+	top: 4.125rem;
+	
+	
+	
+	}
+
+.containerLogin
+{
+	position: absolute;
+	width: 36.25rem;
+	height: 64.313rem;
+	left: 1.875rem;
+	top: 10.063rem;
+	}
+	
+	.h2
+{
+	
+	position: absolute;
+	
+	top: 3.125rem;
+	left: 1.125rem;
+	
+    
+    height: 5.5rem;
+	width: 34.063rem;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+    /* or 131% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.extraH2
+{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+}
+.lp
+{
+	
+	position:absolute;
+	
+height: 4.375rem;
+width: 30.375rem;
+right: 2.875rem;
+/*left: 2.856rem;*/	
+top:  11.125rem;
+border-radius: 0.313rem;
+border-style: none;
+margin-left:0rem;	
+	margin-top:0rem;
+}
+.lp2
+{
+	position:absolute;
+	
+	
+height: 4.375rem;
+width: 30.375rem;
+right: 2.875rem;
+/*left: 2.856rem;*/	
+top: 	16.75rem;
+	border-radius: 0.313rem;
+	border-style: none;
+}
+
+.eye
+{
+	position: absolute;
+	top:18.188rem;
+	right:4.063rem;
+	height:1.5rem;
+    width:2.375rem;
+	
+}
+
+.container
+
+{
+	position: absolute;
+	height: 2rem;
+   width: 8.688rem;
+    left:5.313rem;
+	padding-left: 0.5rem;
+	top: 22.25rem;
+	border-radius: nullpx;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.25rem;
+	line-height: 2rem;
+/* or 320% */
+	color: #BCBCBC;  
+    padding-top:0.146rem; 
+}
+
+.checkbox1 
+
+{
+	position: absolute;
+	left: 3rem;
+	top: 22.313rem;
+	width: 1.875rem;
+	height: 1.875rem;
+	
+}
+ .forgot 
+  
+  {
+    position: absolute;
+    height: 2rem;
+    width: 10.313rem;
+    left: 23.063rem;
+    top: 22.25rem;
+    border-radius: nullpx;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    /* identical to box height, or 320% */
+    
+    text-align: right;
+    padding-top:0.146rem;
+    color: #29B9FC;
+
+  }
+
+.login
+{
+position:absolute;
+height: 4.375rem;
+width: 30.375rem;
+left: 3rem;
+top: 26.438rem;
+border-radius: 1.938rem;
+padding: 0.5rem 1.125rem 0.5rem 1.125rem;
+background: #2791C2;
+	
+border-style: none;
+	
+}
+
+.logintext
+{
+	position:absolute;
+	height: 2rem;
+	width: 4.5rem;
+	left: 15.938rem;
+	top: 27.625rem;
+	padding-top:0rem;
+	margin-top:0rem;
+	border-radius: nullpx;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 2rem;
+/* White */
+color: #FFFFFF;
+}
+
+.register
+{
+    height: 2rem;
+	width: 18.938rem;
+    position: absolute;
+    left: 8.75rem;
+    right: 0rem;
+    top:33.313rem;
+    bottom:0px;
+    padding-top:0rem;
+	margin-top:0rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    /* identical to box height, or 320% */
+    color: #FFFFFF;
+}
+.register2
+{
+    color: #29B9FC;
+}
+
+
+.hr1
+{
+
+    position: absolute;
+    width: 12.156rem;
+    height: 0rem;
+    left: 2.811rem;
+    top: 38.406rem;
+	margin-top:0px;
+	margin-bottom: 0px;
+    background-color: #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+
+}
+
+.or
+
+
+{
+
+    position: absolute;
+    height: 2rem;
+width: 1.313rem;
+left: 17.5rem;
+top: 37.25rem;
+	margin-top:0px;
+border-radius: nullpx;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    /* identical to box height, or 246% */
+    
+    
+    color: #FFFFFF;
+
+}
+
+.hr2
+
+{
+
+ position: absolute;
+     width: 12.156rem;
+    height: 0rem;
+    left: 21.188rem;
+    top: 38.406rem;
+	margin-top:0px;
+	margin-bottom: 0px;
+background-color: #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+
+}
+
+
+.faceLogin
+{
+box-sizing: border-box;
+height: 4.375rem;
+width: 30.438rem;
+border-radius: 2.188rem;
+    position: absolute;
+    left: 2.938rem;
+    top: 42.375rem;
+    margin-top:0rem;
+    border: 0.063rem solid #FFFFFF;
+    background: rgba(49, 49, 49, 0.95);
+    color: #FFFFFF;
+}
+
+.facelogo
+{
+
+	position: absolute;
+	height:2.75rem;
+	width: 2.75rem;
+	top:43.188rem;
+		
+	margin-top:0px;
+	left:7.625rem;
+	
+}
+.facetext
+{
+	position:absolute;
+	height: 2rem;
+width: 15.375rem;
+left: 11.938rem;
+top: 43.563rem;
+	margin-top:0px;
+border-radius: nullpx;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 2rem;
+/* identical to box height, or 229% */
+color: #FFFFFF;
+	
+}
+
+
+
+.twitterLogin
+{
+
+box-sizing: border-box;
+height: 4.375rem;
+width: 30.438rem;
+border-radius: 2.188rem;
+    position: absolute;
+    left: 2.938rem;
+    top: 49.25rem;
+    margin-top:0rem;
+    border: 0.063rem solid #FFFFFF;
+    background: rgba(49, 49, 49, 0.95);
+    color: #FFFFFF;
+
+}
+.twitterLogo
+{
+	
+	position: absolute;
+	height:2.725rem;
+	width: 2.725rem;
+	top:50.063rem;
+		
+	margin-top:0px;
+	left:7.625rem;
+	
+	
+}
+.twitterText
+{
+	position:absolute;
+	height: 2rem;
+width: 15.375rem;
+left: 11.938rem;
+top: 50.438rem;
+	margin-top:0px;
+border-radius: nullpx;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 2rem;
+/* identical to box height, or 229% */
+color: #FFFFFF;
+	
+}
+.googleLogin
+{
+	box-sizing: border-box;
+height: 4.375rem;
+width: 30.438rem;
+border-radius: 2.188rem;
+    position: absolute;
+    left: 2.938rem;
+    top: 56.125rem;
+    margin-top:0rem;
+    border: 0.063rem solid #FFFFFF;
+    background: rgba(49, 49, 49, 0.95);
+    color: #FFFFFF;
+}
+
+.googleLogo
+{
+	position: absolute;
+	height:2.75rem;
+	width: 2.75rem;
+	top:56.938rem;
+		
+	margin-top:0px;
+	left:7.625rem;
+	
+}
+.googleText
+{
+	box-sizing: border-box;
+height: 4.375rem;
+width: 30.438rem;
+border-radius: 2.188rem;
+    position: absolute;
+    left: 11.938rem;
+    top: 57.313rem;
+	margin-top:0px;
+	margin-left:0px;
+	padding-left: 0px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 2rem;
+/* identical to box height, or 229% */
+color: #FFFFFF;
+	
+}
+	
+	
+	
+}
